@@ -2,7 +2,7 @@ import torch
 import torch.nn as nn
 import numpy as np
 import torch.nn.functional as F
-from utils.losses.lovasz_losses import lovasz_softmax
+from .lovasz_losses import lovasz_softmax
 from torch.nn.modules.loss import _Loss, _WeightedLoss
 from torch.nn import NLLLoss2d
 
